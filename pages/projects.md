@@ -4,16 +4,19 @@ title: Projects
 permalink: /projects/
 ---
 
-Here you can showcase your projects. Add descriptions, links, and other relevant information.
 
-## Project One
+## Technology Driven Inventory Optimization
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec lacinia aliquam, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.
+- Built a ReactJS dashboard to track global medical kit deliveries in real time via GPS-enabled maps and shipment stats.
+- Integrated Pebble sensors with AWS AppSync and DynamoDB for live location data.
+- Secured transaction history using AWS Managed Blockchain to ensure data integrity.
+- Improved supply chain transparency and issue response time for **100M+ annual patients**.
 
-[View Project →](https://github.com/yourusername/project-one)
+[View Project →](http://www.capstone.cse.msu.edu/2022-08/projects/stryker/)
 
-## Project Two
+## ART Labs
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec lacinia aliquam, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.
+Currently in Development! 
+Will Share progress as it comes!
 
-[View Project →](https://github.com/yourusername/project-two)
+<!-- [View Project →](#) -->
