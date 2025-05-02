@@ -1,7 +1,3 @@
-- name: Atlos
-  tagline: Visual investigations at scale
-  description: Atlos is a platform for open source visual investigations. It helps journalists, human rights organizations, and OSINT investigators collaborate at scale.
-
 - name: Project One
   tagline: A short description
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec lacinia aliquam, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.
