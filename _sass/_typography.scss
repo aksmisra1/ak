@@ -1,0 +1,85 @@
+// Headings
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 1.5rem 0 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+  
+  // Paragraphs and text
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  ul, ol {
+    margin: 0 0 1rem 1.5rem;
+  }
+  
+  blockquote {
+    border-left: 4px solid var(--blockquote-border);
+    color: var(--blockquote-color);
+    margin: 1.5rem 0;
+    padding: 0 1rem;
+  }
+  
+  pre, code {
+    background-color: var(--code-bg);
+    border-radius: 3px;
+    color: var(--code-color);
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 0.9rem;
+  }
+  
+  code {
+    padding: 0.2em 0.4em;
+  }
+  
+  pre {
+    margin: 1.5rem 0;
+    overflow-x: auto;
+    padding: 1rem;
+    
+    code {
+      background: none;
+      padding: 0;
+    }
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid var(--border-color);
+    margin: 2rem 0;
+  }
+  
+  // Tables
+  table {
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    width: 100%;
+    
+    th, td {
+      border: 1px solid var(--table-border);
+      padding: 0.5rem;
+    }
+    
+    th {
+      background-color: var(--table-stripe);
+      font-weight: 600;
+    }
+    
+    tr:nth-child(even) {
+      background-color: var(--table-stripe);
+    }
+  }

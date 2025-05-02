@@ -1,0 +1,11 @@
+<header class="site-header">
+    <nav class="site-nav">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <div class="nav-links">
+        <a href="{{ '/posts' | relative_url }}">Posts</a>
+        <a href="{{ '/about' | relative_url }}">About</a>
+        <a href="{{ '/projects' | relative_url }}">Projects</a>
+      </div>
+      {% include toggle-theme.html %}
+    </nav>
+  </header>
