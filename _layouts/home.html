@@ -19,14 +19,34 @@ layout: default
   <h2>Education</h2>
   {% for item in site.data.education %}
     <div class="entry">
-      <h3>{{ item.institution }} — {{ item.degree }}</h3>
+      <h3>{{ item.institution }}</h3>
+      <h4>{{ item.degree }}</h4>
       <p>{{ item.description }}</p>
     </div>
   {% endfor %}
 </section>
 {% endif %}
 
-{% if site.data.projects %}
+<!-- {% if site.data.projects %}
+<section class="section">
+  <h2>Projects</h2>
+  {% for item in site.data.projects %}
+    <div class="entry">
+      <h3>{{ item.name }}{% if item.tagline %} — {{ item.tagline }}{% endif %}</h3>
+      <ul>
+        {% for line in item.description %}
+          <li>{{ line | markdownify }}</li>
+        {% endfor %}
+      </ul>
+      {% if item.link %}
+        <p><a href="{{ item.link }}" target="_blank">View Project →</a></p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
+{% endif %} -->
+
+<!-- {% if site.data.projects %}
 <section class="section">
   <h2>Projects</h2>
   {% for item in site.data.projects %}
@@ -36,4 +56,4 @@ layout: default
     </div>
   {% endfor %}
 </section>
-{% endif %}
+{% endif %} -->

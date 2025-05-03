@@ -1,5 +1,28 @@
 ---
 layout: page
-title: Projects HTML
-permalink: /projectss/
+title: Projects
+permalink: /projects/
 ---
+
+
+<div class="projects">
+  {% for project in site.data.projects %}
+    <h2>{{ project.name }}</h2>
+
+    {% if project.description %}
+      <ul>
+        {% for line in project.description %}
+          <li>{{ line }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if project.link %}
+      <p><a href="{{ project.link }}" target="_blank">View Project →</a></p>
+    {% endif %}
+
+    {% unless forloop.last %}
+      <hr />
+    {% endunless %}
+  {% endfor %}
+</div>
