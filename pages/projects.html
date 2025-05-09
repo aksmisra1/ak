@@ -12,7 +12,7 @@ permalink: /projects/
     {% if project.description %}
       <ul>
         {% for line in project.description %}
-          <li>{{ line }}</li>
+          <li>{{ line | markdownify }}</li>
         {% endfor %}
       </ul>
     {% endif %}

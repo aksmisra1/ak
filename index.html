@@ -3,38 +3,44 @@ layout: home
 ---
 
 <div class="about">
-    <p>
-      I'm a software engineer with a strong interest in machine learning, artificial intelligence, and quantitative finance.
-      My background spans both technical development and program management, giving me a unique perspective on building scalable systems and driving cross-functional initiatives.
-    </p>
-  
-    <hr />
-  
-    <h2>Experience</h2>
-    <div class="timeline">
-      {% for job in site.data.experience %}
-        <div class="company">
-          <h3>{{ job.company }}</h3>
-  
-          {% for role in job.roles %}
-            <div class="timeline-entry">
-              <div class="dot"></div>
-              <div class="content">
-                <h4>{{ role.title }}</h4>
-                <p class="location">{{ role.location }}</p>
-                <p class="date">{{ role.date }}</p>
-                <ul>
-                  {% for point in role.description %}
-                    <li>{{ point }}</li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-          {% endfor %}
+  <p>
+    I'm a software engineer with a strong interest in machine learning, artificial intelligence, and quantitative finance.
+    My background spans both technical development and program management, giving me a unique perspective on building scalable systems and driving cross-functional initiatives.
+  </p>
+
+  <hr />
+
+  <h2>Experience</h2>
+  <div class="timeline">
+    {% for job in site.data.experience %}
+      <div class="company">
+        <div class="company-header">
+          {% if job.logo %}
+            <img src="{{ job.logo }}" alt="{{ job.company }} logo" class="company-logo" />
+          {% endif %}
+          <h3 class="company-name">{{ job.company }}</h3>
         </div>
-      {% endfor %}
-    </div>
+
+        {% for role in job.roles %}
+          <div class="timeline-entry">
+            <div class="dot"></div>
+            <div class="content">
+              <h4>{{ role.title }}</h4>
+              <p class="location">{{ role.location }}</p>
+              <p class="date">{{ role.date }}</p>
+              <ul>
+                {% for point in role.description %}
+                  <li>{{ point }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
   </div>
+
+  <hr />
 
   <h2>Skills</h2>
   <ul>
