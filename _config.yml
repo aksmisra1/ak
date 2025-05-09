@@ -1,7 +1,7 @@
 # Site settings
 title: Shash Bhatia
 description: Personal website / Portfolio
-baseurl: ""
+baseurl: "/shashb_site"
 url: "" 
 
 # Build settings
