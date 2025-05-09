@@ -1,0 +1,39 @@
+- company: General Motors (GM)
+  roles:
+    - title: GPM – Assist Program Engineering Manager
+      location: Warren, MI / Milford, MI / Ramos, MX
+      date: Sept 2024 – Present
+      description:
+        - Streamlined ECR tracking by 75%.
+        - Led retrofit efforts for international models.
+        - Supported manufacturing site transitions.
+
+    - title: SDV – AI/ML Software Engineer
+      location: Warren, MI
+      date: May 2024 – Sept 2024
+      description:
+        - Improved data pipelines and structured data ingestion.
+        - Analyzed vehicle telemetry for product insights.
+        - Processed map data for internal applications.
+
+    - title: R&D – Autonomous Driving Simulation Engineer
+      location: Warren, MI
+      date: Aug 2023 – May 2024
+      description:
+        - Ran ADAS simulations in virtual environments.
+        - Built 3D scenarios from open-source map data.
+        - Implemented motion planning and sensor capture tools.
+
+    - title: SDV – ADAS Platform Developer
+      location: Warren, MI
+      date: Jan 2023 – Aug 2023
+      description:
+        - Developed in-vehicle platform software.
+        - Automated validation and system testing.
+
+    - title: Software Engineering Intern
+      location: Warren, MI
+      date: June 2022 – Aug 2022
+      description:
+        - Helped build a modern timekeeping app.
+        - Developed UI and backend features.

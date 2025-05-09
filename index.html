@@ -2,29 +2,49 @@
 layout: home
 ---
 
-<p>
-  Welcome to my personal website. This is where I share my thoughts, projects, and experiences.
-</p>
-
-<div class="post-list">
-  <h2>Recent Posts</h2>
-  {% for post in site.posts limit:3 %}
-    <div class="post-item">
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <div class="post-meta">
-        <time datetime="{{ post.date | date_to_xmlschema }}">
-          {{ post.date | date: "%B %d, %Y" }}
-        </time>
-        <!-- {% if post.categories %}
-          <span class="categories">
-            {% for category in post.categories %}
-              {{ category }}
-              {% unless forloop.last %} • {% endunless %}
-            {% endfor %}
-          </span>
-        {% endif %} -->
-      </div>
+<div class="about">
+    <p>
+      I'm a software engineer with a strong interest in machine learning, artificial intelligence, and quantitative finance.
+      My background spans both technical development and program management, giving me a unique perspective on building scalable systems and driving cross-functional initiatives.
+    </p>
+  
+    <hr />
+  
+    <h2>Experience</h2>
+    <div class="timeline">
+      {% for job in site.data.experience %}
+        <div class="company">
+          <h3>{{ job.company }}</h3>
+  
+          {% for role in job.roles %}
+            <div class="timeline-entry">
+              <div class="dot"></div>
+              <div class="content">
+                <h4>{{ role.title }}</h4>
+                <p class="location">{{ role.location }}</p>
+                <p class="date">{{ role.date }}</p>
+                <ul>
+                  {% for point in role.description %}
+                    <li>{{ point }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
     </div>
-  {% endfor %}
-  <p><a href="{{ '/posts' | relative_url }}">View all posts →</a></p>
+  </div>
+
+  <h2>Skills</h2>
+  <ul>
+    <li><strong>Languages</strong>: Python, C++, JavaScript, TypeScript, SQL, Bash</li>
+    <li><strong>Web</strong>: Angular, HTML, CSS, Spring Boot</li>
+    <li><strong>Backend</strong>: RESTful APIs, Databricks, XML processing</li>
+    <li><strong>Data & ML</strong>: OSM, OnStar Telemetry, AI/ML integration</li>
+    <li><strong>Simulation</strong>: ADAS testing, Pure Pursuit, LIDAR/Camera processing</li>
+    <li><strong>Tools</strong>: Git, Linux, QNX, ECM, Agile, JIRA</li>
+    <li><strong>Database</strong>: SQL, NoSQL, schema design</li>
+    <li><strong>Scripting</strong>: Python, Bash</li>
+  </ul>
 </div>
