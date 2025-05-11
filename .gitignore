@@ -8,3 +8,4 @@ vendor/
 Gemfile.lock
 .env
 structure.txt
+draft_posts/
