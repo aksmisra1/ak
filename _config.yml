@@ -1,7 +1,7 @@
 # Site settings
 title: Akshat Misra
 description: Personal website 
-baseurl: "/ak"
+baseurl: "/"
 url: "" 
 
 # Build settings
