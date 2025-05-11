@@ -1,10 +1,10 @@
-- name: Technology Driven Inventory Optimization
-  description: 
-  - Built a ReactJS dashboard to track global medical kit deliveries in real time via GPS-enabled maps and shipment stats.
-  - Integrated Pebble sensors with AWS AppSync and DynamoDB for live location data.
-  - Secured transaction history using AWS Managed Blockchain to ensure data integrity.
-  - Improved supply chain transparency and issue response time for **100M+ annual patients**.
-  link: http://www.capstone.cse.msu.edu/2022-08/projects/stryker/
+- name: Flower Image Classifier (CNN with TensorFlow/Keras)
+  description:
+   - Developed a convolutional neural network to classify flower images into 5 categories with ~92% validation accuracy
+   - Used data augmentation and preprocessing to boost generalization and reduce overfitting
+   - Built a full prediction pipeline to test custom images and evaluate real-world performance
+   - Applied TensorFlow, Keras, and Matplotlib for training, evaluation, and visualization
+  link: https://github.com/aksmisra1/FlowerClassifierModel/tree/main
 
 - name: ART Labs
   description:
