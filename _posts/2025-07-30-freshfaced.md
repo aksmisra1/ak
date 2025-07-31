@@ -2,16 +2,16 @@
 layout: post
 title: "How I solved Fresh Faced - Finding the Founder"
 date: 2025-07-30
-categories: [productivity, technology, writing]
+categories: [Bellingcat]
 ---
 
 ## How I solved 'Fresh Faced - Finding the Founder'
 
-BelingCat challenge
+BellingCat challenge
 
 ![FreshFaced Challenge](../assets/images/freshfaced.png "FreshFaced Challenge")
 
-Given a newspaper photo clipping you were meant to find a corresponding youtube interview regarding the founder of Belingcat: Eliot Higgins and provide the code at the end of the link.
+Given a newspaper photo clipping you were meant to find a corresponding youtube interview regarding the founder of Bellingcat: Eliot Higgins and provide the code at the end of the link.
 
 1. I first translated the words in the newspaper clipping by using autodetect and found that they were in croatian.
 
